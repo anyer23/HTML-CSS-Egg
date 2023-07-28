@@ -1,0 +1,45 @@
+body{
+    color: black;
+    background-color: beige;
+
+}
+
+h1{
+    color: black;
+    size: 12px;
+    font-family: cursive;
+    align-content:center;
+}
+
+h2{
+    color: #000;
+}
+
+/*link sin visitar*/
+a:link{
+    color: red;
+}
+
+/*link visitado*/
+a:visited{
+    color: green;
+}
+/*mouse sobre el link*/
+a:hover{
+    color:aqua;
+}
+/*link clickeado*/
+a:active{
+    color:blue;
+}
+
+/*estilos de clases*/
+.ej1h1{
+   background-color:blueviolet;
+   color:blanchedalmond;
+   size: 15px;
+}
+.ej1h2{
+    background-color:aqua;
+    color:aqua;
+}
