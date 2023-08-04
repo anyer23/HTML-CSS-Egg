@@ -2,9 +2,10 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 500;
+    text-align: center;
+
 }
+
 
 section{
     min-height: 100%;
@@ -16,4 +17,234 @@ a{
 
 li{
     list-style-type: none;
+}
+
+h1,h2,h3,a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #494949;
+    text-transform: uppercase;
+
+}
+
+h2{
+    color:#5d7177;   
+}
+
+h3{
+    font-size: 40px;
+    padding-top: 8%;
+    margin-bottom: 5px;
+}
+
+h4,p{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color:#494949;
+}
+
+hr{
+    width: 30px;
+    height: 3px;
+    background: #5c0c0c;
+    border: 0;
+    margin: 0 auto 40px auto;
+}
+
+li,#logo{
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:white;
+    box-shadow: 0 1px rgba(0, 0, 0,1);
+    z-index: 1;
+
+}
+
+
+#logo {
+    width: 140px;
+    float: left;
+    margin: 10px 0 0 50px;
+
+}
+
+#logo:hover{
+    opacity: 0.5;
+}
+
+#logo img{
+    width: 50%;
+   
+}
+
+header nav{
+    float: right;
+    margin: 10px 50px 0 0;
+}
+
+header nav ul li{
+    float: left;
+    margin-right: 25px;
+}
+
+header nav ul li a{
+    font-size: 16px;
+}
+
+header nav ul li:hover{
+    padding-top: 5px;
+}
+
+/*home*/
+
+#home{
+    background: url(imagenes/paisaje.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home h1{
+    margin: 240px auto 0 auto;
+    font-size: 110px;
+}
+
+#home h2{
+    margin: 0 auto 0 auto;
+    font-size:  25px;
+}
+
+#home img{
+    width: auto;
+    margin-top: 150px;
+    opacity: 0.7;
+}
+
+#home img:hover{
+    opacity: 1;
+}
+
+/*about*/
+#about img{
+    width: 240px;
+}
+#about img:hover{
+    transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+       -o-transform: scale(1.1);
+}
+
+#about h4{
+    font-size: 25px;
+}
+
+#about p{
+    width:  700px;
+    margin: 0 auto 0 auto;
+}
+/*work*/
+#work{
+    background: color #f0f0f0;
+
+}
+
+#projects{
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+#projects{
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+#projects ul li{
+    width: 33.3%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#projects img{
+    width: 280px;
+    height: 170px;
+    border-radius: 5px;
+
+}
+
+#projects img:hover{
+    transform: scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    box-shadow: 0 5px rgba(0, 0, 0,3);
+}
+
+/*contacto*/
+form input, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius:2px;
+    border: 2px solid;
+    border-color: #494949;
+}
+
+form input:first-child{
+    margin-top: 10px;
+}
+
+form input{
+    width: 550px;
+    height: 30px;
+}
+
+form textarea{
+   width: 550px;
+   height: 30px;
+}
+
+.input_text{
+ color:#494949;
+ padding-left: 10px;
+}
+
+::-webkit-input-placeholder {color: #999999;}
+::-moz-placeholder{color:#999999}
+:-ms-fullscreen{color:#999999}
+:-moz-placeholder{color:#999999}
+
+.button{
+    background-color: #f0f0f0;
+    color:#494949;
+    width: 566px;
+    height: 50px;
+}
+
+.button:hover{/*hover es para el movimiento del mous*/
+    background-color:#494949;
+    color:#f0f0f0;
+}
+
+/*footer*/
+footer{
+    width:100%;
+    height: 70px;
+    background: color #2f2f2f;
+
+}
+
+footer p{
+    font-size: 12px;
+    color:#494949;
 }
